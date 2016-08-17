@@ -7,12 +7,12 @@
 #    puts "nil"
 #  end
 #end
-def fizzbuzz(i)
-  if i % 3 == 0 and i % 5 == 0
-    return "FizzBuzz"
-  elsif i % 3 == 0
-    return "Fizz"
-  elsif i % 5 == 0
-    return "Buzz"
+def fizzbuzz(int)
+  if int % 3 == 0 and int % 5 == 0
+    "FizzBuzz"
+  elsif int % 3 == 0
+    "Fizz"
+  elsif int % 5 == 0
+    "Buzz"
   end
 end
